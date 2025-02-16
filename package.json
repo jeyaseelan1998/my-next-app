@@ -1,9 +1,15 @@
 {
   "name": "my-next-app",
   "version": "0.1.0",
+  "description": "A testing and learning project",
   "private": true,
+  "author": "Jeyaseelan R",
+  "engines": {
+    "node": ">=22.13.1",
+    "npm": ">=10.9.2"
+},
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -21,5 +27,14 @@
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "@eslint/eslintrc": "^3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeyaseelan1998/my-next-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeyaseelan1998/my-next-app/issues"
+  },
+  "homepage": "https://my-next-app-iota-three.vercel.app",
+  "license": "ISC"
 }
