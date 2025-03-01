@@ -1,0 +1,39 @@
+.fetching,
+.disabled {
+    display: inline-block;
+    opacity: .7;
+    pointer-events: none;
+}
+
+.btn {
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 16px;
+    min-width: 150px;
+    padding: 12px 24px;
+    border: 1px solid #0000;
+    border-radius: 2px;
+}
+
+.default {
+    color: var(--white);
+    border-color: var(--black);
+    background-color: var(--black);
+}
+
+.default:hover {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.defaultOutline {
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--black);
+}
+
+.defaultOutline:hover {
+    color: var(--white);
+    background-color: var(--black);
+}

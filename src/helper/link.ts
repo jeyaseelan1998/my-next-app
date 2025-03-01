@@ -1,0 +1,1 @@
+export const getLinkBehavior = (href = "") => href.startsWith("https://") ? "_blank" : "_self";
